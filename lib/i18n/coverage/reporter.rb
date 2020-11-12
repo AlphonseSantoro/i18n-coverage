@@ -25,7 +25,8 @@ module I18n
           key_count: @existing_keys.count,
           used_key_count: used_keys.count,
           percentage_used: percentage_used,
-          unused_keys: unused_keys.to_a
+          unused_keys: unused_keys.to_a,
+          used_keys: @stored_keys.to_a
         }
       end
 

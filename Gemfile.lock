@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    i18n-coverage (0.2.0)
+    i18n-coverage (0.3.0)
 
 GEM
   remote: https://rubygems.org/

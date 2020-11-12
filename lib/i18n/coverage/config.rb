@@ -5,11 +5,13 @@ module I18n
     class Config
       attr_accessor :locale,
                     :locale_dir_path,
-                    :printer
+                    :printer,
+                    :coverage_dir
 
       def initialize
         self.locale = 'en'
         self.locale_dir_path = 'config/locales'
+        self.coverage_dir = 'coverage'
         self.printer = I18n::Coverage::Printers::BasicPrinter
       end
     end
